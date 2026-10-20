@@ -274,7 +274,7 @@ export class CommonGroupByQueryRunnerService extends CommonBaseQueryRunnerServic
         filterValueDependencies: {
           timeZone: 'UTC', // TODO: see if we use workspace member timezone here
         },
-      }) as ObjectRecordFilter,
+      }),
       flatObjectMetadata,
       flatObjectMetadataMaps,
       flatFieldMetadataMaps,
